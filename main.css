@@ -1,0 +1,120 @@
+body{
+}
+
+@media (max-width: 544px){
+  #header img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.container{
+  align-content: center;
+  height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/cafepetrelli.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+#header{
+  margin: 0 auto;
+  padding: 200px 20px 0 20px;
+  float:none;
+  position: relative;
+  text-align: center;
+}
+
+.contacto{
+  text-align: center;
+  align-content: center;
+  float: none;
+}
+
+ul{
+  display: inline-block;
+  color: #E8E4CD;
+  font-style: normal;
+  font-family: "helvetica",sans-serif;
+  font-weight: lighter;
+  margin: 0 auto;
+  padding-left: initial;
+  padding-top: 50px;
+  font-size: 18px;
+  list-style: none;
+  float: none;
+
+}
+
+li{
+  margin: 0 auto;
+  padding-top: 20px;
+  float: inherit;
+  text-align: left;
+
+}
+
+h3{
+  height: auto;
+  padding-top: 30px;
+  color: #E8E4CD;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+
+}
+
+#cont{
+  position: relative;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+
+}
+
+h1{
+  color: #E8E4CD;
+  font-family: "helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0 auto;
+  float: none;
+  align-content: center;
+  position: inherit;
+  font-size: 35px;
+  padding-top: 120px;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+#correo{
+  float: left;
+  margin-right: 14px;
+
+}
+
+#celular{
+  float: left;
+  margin-right: 14px;
+
+}
+
+#local{
+  float: left;
+  margin-right: 14px;
+}
