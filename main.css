@@ -102,19 +102,30 @@ h1{
 
 }
 
+h2{
+  color: #E8E4CD;
+  font-family: "helvetica", sans-serif;
+  font-size: 20px; 
+
+}
+
 #correo{
   float: left;
   margin-right: 14px;
+  margin-top: -4px;
 
 }
 
 #celular{
   float: left;
   margin-right: 14px;
+    margin-top: -4px;
 
 }
 
 #local{
   float: left;
   margin-right: 14px;
+  margin-top: -4px;
+
 }
